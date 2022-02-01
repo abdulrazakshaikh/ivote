@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:i_vote/ui/dashboard.dart';
 import 'package:i_vote/ui/login.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -41,8 +42,8 @@ late Animation<double> _animation;
     Future.delayed(Duration(seconds: 4), () {
       Navigator.pushReplacement<void, void>(context, 
         MaterialPageRoute(
-          // builder: (BuildContext context) => HomeScreen()
-          builder: (BuildContext context) => Login()
+          builder: (BuildContext context) => Dashboard()
+          // builder: (BuildContext context) => Login()
           
         )
       );

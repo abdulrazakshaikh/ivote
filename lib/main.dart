@@ -29,8 +29,13 @@ class MyApp extends StatelessWidget {
           onSecondary: Colors.white, 
           onSurface: Colors.black, 
           onBackground: Colors.white, 
+          
           // surface: FstSurfaceLightColor,
           // on light theme surface = Colors.white by default
+        ),
+        appBarTheme: AppBarTheme(
+          elevation: 1,
+          titleTextStyle: TextStyle(color: IvoappbartextColor, fontFamily: 'Source Sans Pro', fontSize: 16, fontWeight: FontWeight.w500, letterSpacing: 1.2),
         ),
         textTheme: const TextTheme(
           headline1: TextStyle(color: IvoTitleTextLightColor, fontFamily: 'Source Sans Pro', fontSize: 48, fontWeight: FontWeight.w300, letterSpacing: 1.5),

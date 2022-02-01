@@ -15,3 +15,4 @@ const IvoBackgroundLightColor = Color(0xFFfbfdff);
 const IvoSurfaceLightColor = Color(0xFFf8fafc);
 
 
+const IvoappbartextColor = Color(0xFFfbfdff);
